@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --primaryColor:#FD6E0A;
+}
+/* Header part */
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+     padding: 48px 200px ;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* margin: 50px 200px; */
+}
+nav li{
+    margin: 0 21px;
+}
+.logo{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav>h2>span{
+    color: var(--primaryColor);
+}
+.primary-button{
+    font-weight: 600;
+    height: 50px;
+    background-color: var(--primaryColor);
+    color: #fff;
+    padding: 0 20px;
+    border: 0;
+    border-radius: 5px;
+}
+.primary-button:hover{
+    background-color: transparent;
+    color: var(--primaryColor);
+    outline: 1px solid var(--primaryColor);
+}
+header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    background-size: auto, 82px;
+    
+    
+}
+/* Banner */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 40px 0 200px;
+    
+}
+
+.sub-title{
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #474747;
+}
+.name{
+    font-size: 75px;
+    font-weight: 800;
+    color: #181818;
+}
+.description{
+    margin: 25px 0;
+    color: #757575;
+}
+.contact{
+    font-weight: 600;
+    height: 50px;
+    border: 1px solid var(--primaryColor);
+    color: var(--primaryColor);
+    padding: 1px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+.contact:hover{
+    background-color: var(--primaryColor);
+    color: #fff;
+}
+img{
+    width: 584px;
+    height: 476px;
+    
+}
+/* main */
+main{
+    max-width: 1140px; 
+    margin:0 auto ;
+}
+/* About */
+.about{
+   margin: 150px;
+   background-color: #FFF8F3;
+   border-radius: 5px;
+   padding: 100px 116px;
+}
+
+
+.sec-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #181818;
+    font-weight: 700;
+
+}
+.sec-desc{
+    text-align: center;
+    color: #757575;
+}
+table{
+    margin: 30px auto;
+}
+th{
+    font-weight: 400;
+    color: #757575;
+    text-align: center;
+}
+td{
+    font-weight: 800;
+    color: #181818;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
