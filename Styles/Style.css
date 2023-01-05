@@ -337,7 +337,9 @@ td {
     width: 100%;
     padding: 24px  ;
     margin: 20px 0;
-    
+    border: 0;
+    outline: none;
+    resize: none;
 
 }
 .form form input[type=text], input[type=email]{
