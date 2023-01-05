@@ -67,7 +67,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 40px 0 150px;
+    margin: 0 0px 0 150px;
 
 }
 
@@ -111,11 +111,8 @@ img {
 
 }
 
-/* main */
-main {
-    /* max-width: 1140px;
-    margin: 150px 150px; */
-}
+
+
 
 /* About */
 .about {
